@@ -8,7 +8,7 @@ const toys = [
 
 let newArr = new Array;
 
-for (const toy of toys){
+for (let toy of toys){
     if (!toy.name.includes("gato"))
     newArr.push(toy);
 }
